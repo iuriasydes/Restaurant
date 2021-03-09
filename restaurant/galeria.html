@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0, maximun-scale=3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link href="https://file.myfontastic.com/TuZqJP5mczB2DmcHnCRGfM/icons.css" rel="stylesheet">
+    <title>RESTAURANT | Galeria</title>
+</head>
+<body>
+  <div class="modal" id="modal">
+    <div class="modal__content">
+      <img src="" alt="modal-img" class="modal__img" id="modal__img">
+      <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+  </div>
+  <header class="main-header">
+    <div class="container container--flex">
+      <div class="logo-container column column--50">
+        <h1 class="logo">Your Restaurant</h1>
+      </div>
+      <div class="main-header__contactInfo column column--50">
+        <p class="main-header__contactInfo__phone">
+          <span class="icon-phone">(+52) 646-247-1235</span>
+        </p>
+        <p class="main-header__contactInfo__address">
+          <span class="icon-location">386 Lomas del Sauzal Ens. B.C</span>
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container container--flex">
+      <span class="icon-menu" id="btnmenu"></span>
+      <ul class="menu" id="menu">
+        <li class="menu__item"><a href="/" class="menu__link ">Inicio</a></li>
+        <li class="menu__item"><a href="/nosotros.html" class="menu__link ">Nosotros</a></li>
+        <li class="menu__item"><a href="/galeria.html" class="menu__link menu__link--select">Galeria</a></li>
+        <li class="menu__item"><a href="/contacto.html" class="menu__link">Contacto</a></li>
+      </ul>
+      <div class="social-icon">
+        <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+        <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+        <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="banner">
+    <img src="assets/imgs/galeria/banner-gallery.jpg" alt="baner-img" class="banner__img">
+    <div class="banner__content">
+      Lo mejor de nosotros a tu servicio
+    </div>
+  </section>
+
+  <main class="main">
+    <div class="group gallery">
+      <h2 class="group__title">Nuestra Galeria</h2>
+      <div class="container container--flex">
+        <div class="column column--50-25">
+          <img src="assets/imgs/galeria/gallery1.jpg" alt="gallery1-img" class="gallery__img gallery__img--big">
+          <img src="assets/imgs/galeria/gallery2.jpg" alt="gallery2-img" class="gallery__img gallery__img--small">
+        </div>
+        <div class="column column--50-25">
+          <img src="assets/imgs/galeria/gallery3.jpg" alt="gallery3-img" class="gallery__img gallery__img--small">
+          <img src="assets/imgs/galeria/gallery4.jpg" alt="gallery4-img" class="gallery__img gallery__img--big">
+        </div>
+        <div class="column column--50-25">
+          <img src="assets/imgs/galeria/gallery5.jpg" alt="gallery5-img" class="gallery__img gallery__img--big">
+          <img src="assets/imgs/galeria/gallery6.jpg" alt="gallery6-img" class="gallery__img gallery__img--small">
+        </div>
+        <div class="column column--50-25">
+          <img src="assets/imgs/galeria/gallery7.jpg" alt="gallery6-img" class="gallery__img gallery__img--small">
+          <img src="assets/imgs/galeria/gallery8.jpg" alt="gallery7-img" class="gallery__img gallery__img--big">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container container--flex">
+      <div class="column column--33">
+        <h2 class="column__title">¿Porque Visitarnos?</h2>
+        <p class="column__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti similique non sequi consequatur distinctio eveniet.</p>
+      </div>
+      <div class="column column--33">
+        <h2 class="column__title">Contactanos</h2>
+        <p class="column__txt">San Geronimo 386 Lomas del Sauzal Ens.B.C</p>
+        <p class="column__txt">(+52) 646-247-1235</p>
+        <p class="column__txt">consultas@yourrestaurant.com</p>
+      </div>
+      <div class="column column--33">
+        <h2 class="column__title">Siguenos en nuestras redes sociales</h2>
+        <p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+        <p class="column__txt"><a href="" class="icon-twitter">Siguenos en Twitter</a></p>
+        <p class="column__txt"><a href="" class="icon-youtube">Visita nuestro canal</a></p>
+    </div>
+    <p class="copy">2021 Your restaurant | todos los derechos reservados</p>
+    </div>
+  </footer>
+
+<script src="js/menu.js"></script>
+<script src="js/modal.js"></script>
+</body>
+</html>
