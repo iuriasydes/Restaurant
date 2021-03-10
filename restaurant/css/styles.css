@@ -50,6 +50,7 @@ h1,h2,h3,h4,h5,h6{
   padding: 10px;
 }
 .main-header__contactInfo__address{
+  background-color: #556b2f;
   margin: 0 auto;
   padding: 10px;
   color: white;
@@ -130,7 +131,7 @@ h1,h2,h3,h4,h5,h6{
 }
 /*--------------------ESTILOS DEL BANNER---------------*/
 .banner{
-  margin-top: -55px;
+  margin-top: -60px;
   position: relative;
 }
 .banner:before{
@@ -254,7 +255,8 @@ h1,h2,h3,h4,h5,h6{
   .main-header__contactInfo__phone{
     background: none;
   }
-  .main-header__contactInfo__addres{
+  .main-header__contactInfo__address{
+    background: none;
     color: white;
   }
   .main-nav{
