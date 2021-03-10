@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, initial-scale=1.0, maximun-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link href="https://file.myfontastic.com/TuZqJP5mczB2DmcHnCRGfM/icons.css" rel="stylesheet">
     <title>RESTAURANT | Contacto</title>
 </head>
@@ -51,9 +51,35 @@
   </section>
 
   <main class="main">
-    <div class="group contact">
+    <section class="group contact">
       <h2 class="group__title">Contactenos</h2>
-    </div>
+      <div class="container container--flex">
+        <div class="contact-information column column--50">
+          <h3 class="column__title">Informacion de Contacto</h3>
+          <p class="column__txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur nisi quis itaque architecto. Mollitia commodi accusantium, unde magnam quam nesciunt quaerat facilis provident? Fugit doloremque dolor nisi commodi, odit facilis?</p>
+          <p class="column__txt"><span class="icon-phone"></span>Telefono 1: 646-247-1235</p>
+          <p class="column__txt"><span class="icon-phone"></span>Telefono 2: 646-123-4567</p>
+          <p class="column__txt"><span class="icon-location"></span>San Geronimo 386 Lomas del Sauzal Ens.B.C</p>
+          <p class="column__txt"><span class="icon-mail"></span>consultas@yourrestaurant.com</p>
+          <div class="social-icon">
+            <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+            <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+          </div>
+        </div>
+        <form action="" method="POST" class="formulario column column--50">
+          <label for="" class="formulario__label">Nombre: </label>
+          <input type="text" class="formulario__input-txt" name="nombre">
+          <label for="" class="formulario__label">Correo: </label>
+          <input type="text" class="formulario__input-txt" name="correo">
+          <label for="" class="formulario__label">Telefono: </label>
+          <input type="text" class="formulario__input-txt" name="telefono">
+          <label for="" class="formulario__label">Mensaje: </label>
+          <textarea class="formulario__textarea" name="mensaje" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn formulario__btn">
+        </form>
+      </div>
+    </section>
   </main>
 
   <footer class="main-footer">
